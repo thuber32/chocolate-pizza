@@ -3,15 +3,21 @@ body {
     background-color: #f2f2f2f6;
     font-family: 'PT Serif', serif;
     font-size: 12px;
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+    overflow: hidden;
 }
 
-header {
+header{
     border-bottom: 5px;
     border-bottom-style:double;
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 15px 0px;
 }
+
 header img, .logo-text{
     float: left;
 }
@@ -48,4 +54,98 @@ nav img{
     font-size: 0.7rem;
     margin: 0;
     padding: 0;
+}
+
+main{
+    min-width: 300px;
+    width: 100%;
+    border-bottom: 5px;
+    border-bottom-style:double;
+}
+
+main header {
+    border-bottom: none;
+    margin-top: 15px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.blog-title h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.post-date, .print{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.post-date{
+    float:left;
+    width: 90%;
+}
+
+.print{
+    text-align: right;
+    float: right;
+    width: 10%;
+}
+.article-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.instructions{
+    text-indent: 1.5rem;
+}
+
+.ingredients{
+    background-image: url(https://thuber32.github.io/chocolate-pizza/img/list-bg.png);
+    background-repeat: no-repeat;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1rem;
+   
+}
+
+.column1{
+    display: inline-block;
+    max-width: 300px;
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+}
+
+.column2 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.ingredients ul{
+    margin: 15 px;
+    list-style: square;
+}
+
+footer{
+    display: inline-block;
+    margin: 5px;
+}
+
+.blogger-profile img{
+    padding: 0px 5px;
+    border-radius: 50%;
+    float: left;
+    max-width: 50px;
+}
+
+.profile-text h3{
+    font-size: 0.9rem;
+    margin: 0px;   
+    padding: 0px 5px; 
+}
+
+.profile-text p{
+    font-size: 0.7rem;
 }
